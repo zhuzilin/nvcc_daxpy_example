@@ -1,0 +1,48 @@
+
+64bit elf: type=2, abi=7, sm=75, toolkit=116, flags = 0x4b054b
+Sections:
+Index Offset   Size ES Align        Type        Flags Link     Info Name
+    1     40     41  0  1            STRTAB       0    0        0 .shstrtab
+    2     81     41  0  1            STRTAB       0    0        0 .strtab
+    3     c8     30 18  8            SYMTAB       0    2        2 .symtab
+    4     f8     d8  8  8    CUDA_RELOCINFO       0    0        0 .nv.rel.action
+
+.section .strtab
+
+.section .shstrtab
+
+.section .symtab
+ index           value           size      info    other  shndx    name  
+   0               0               0        0        0      0     (null)
+ 0x1               0               0      0x3        0    0x4     .nv.rel.action
+
+
+.nv.rel.action
+Header : Base Relocation : R_CUDA_ABS55_16_34
+Reloc type : Symbol Kind,Addend Shift,Source Position1,length1,Destination Position1,Source Position2,length2,Destination Position2
+R_CUDA_ABS55_16_34 : EIVALUE_SYM_KIND_ADDR,2,2,8,16,10,47,34
+R_CUDA_8_0 : EIVALUE_SYM_KIND_ADDR,0,0,8,0,0,0,0
+R_CUDA_8_8 : EIVALUE_SYM_KIND_ADDR,0,8,8,0,0,0,0
+R_CUDA_8_16 : EIVALUE_SYM_KIND_ADDR,0,16,8,0,0,0,0
+R_CUDA_8_24 : EIVALUE_SYM_KIND_ADDR,0,24,8,0,0,0,0
+R_CUDA_8_32 : EIVALUE_SYM_KIND_ADDR,0,32,8,0,0,0,0
+R_CUDA_8_40 : EIVALUE_SYM_KIND_ADDR,0,40,8,0,0,0,0
+R_CUDA_8_48 : EIVALUE_SYM_KIND_ADDR,0,48,8,0,0,0,0
+R_CUDA_8_56 : EIVALUE_SYM_KIND_ADDR,0,56,8,0,0,0,0
+R_CUDA_G8_0 : EIVALUE_SYM_KIND_GADDR,0,0,8,0,0,0,0
+R_CUDA_G8_8 : EIVALUE_SYM_KIND_GADDR,0,8,8,0,0,0,0
+R_CUDA_G8_16 : EIVALUE_SYM_KIND_GADDR,0,16,8,0,0,0,0
+R_CUDA_G8_24 : EIVALUE_SYM_KIND_GADDR,0,24,8,0,0,0,0
+R_CUDA_G8_32 : EIVALUE_SYM_KIND_GADDR,0,32,8,0,0,0,0
+R_CUDA_G8_40 : EIVALUE_SYM_KIND_GADDR,0,40,8,0,0,0,0
+R_CUDA_G8_48 : EIVALUE_SYM_KIND_GADDR,0,48,8,0,0,0,0
+R_CUDA_G8_56 : EIVALUE_SYM_KIND_GADDR,0,56,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_0 : EIVALUE_SYM_KIND_FDESC,0,0,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_8 : EIVALUE_SYM_KIND_FDESC,0,8,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_16 : EIVALUE_SYM_KIND_FDESC,0,16,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_24 : EIVALUE_SYM_KIND_FDESC,0,24,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_32 : EIVALUE_SYM_KIND_FDESC,0,32,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_40 : EIVALUE_SYM_KIND_FDESC,0,40,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_48 : EIVALUE_SYM_KIND_FDESC,0,48,8,0,0,0,0
+R_CUDA_FUNC_DESC_8_56 : EIVALUE_SYM_KIND_FDESC,0,56,8,0,0,0,0
+R_CUDA_ABS20_44 : EIVALUE_SYM_KIND_ADDR,0,0,20,44,0,0,0
